@@ -1,0 +1,13 @@
+#include<stdio.h>
+
+int main (){
+char full_name[20];
+
+printf("Please enter your full name : ");
+scanf("%s" , full_name);
+printf("Your Full name is : %s" , full_name);
+    return 0;
+}
+
+
+//if we take (Nafees Ahmad) it will print only (Nafees) ... Because of it never print spaces

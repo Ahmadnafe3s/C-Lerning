@@ -1,0 +1,13 @@
+#include<stdio.h>
+
+int main (){
+char lastname[] = "faizan Ahmad";
+
+puts(lastname);
+
+lastname = "Faizan";
+puts(lastname);
+
+
+    return 0;
+}

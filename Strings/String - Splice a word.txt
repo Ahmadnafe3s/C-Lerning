@@ -1,0 +1,22 @@
+#include<stdio.h>
+void slice(char str[]);
+
+int main(){
+    char str[200] = "Nafees";
+    
+    slice(str);
+
+    return 0;
+}
+
+void slice(char str[]){
+    int i , j = 0;
+    char newstr[20];
+    
+for ( i = 2 ; i < 5 ; i++)
+{
+   newstr[j] = str[i];
+   j++;
+}
+   puts(newstr);
+}

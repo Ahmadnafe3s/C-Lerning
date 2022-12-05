@@ -1,0 +1,27 @@
+#include<stdio.h>
+void vowels(char str[]);
+
+int main(){
+    char str[200];
+    printf("Enter your sentence : ");
+    scanf("%s" , str);
+    vowels(str);
+
+    return 0;
+}
+
+void vowels(char str[]){
+    int i , count = 0;
+    char newstr[20];
+    // this code is for vowels .........
+for ( i = 0 ; str[i] != '\0' ; i++)
+{
+   if (str[i] == 'a' || str[i] == 'e' || str[i] == 'i' || str[i] == 'o' || str[i] == 'u')
+   {
+printf("%d index = %c\n" , i , str[i] );
+    count++;
+   }
+   
+}
+ printf("total constunents = %d" , count);
+}

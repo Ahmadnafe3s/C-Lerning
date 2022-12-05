@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<string.h>
+
+int main(){
+
+char first[] = "HHH";
+
+char second[] = "HHH";
+
+
+printf("%d" , strcmp(first , second));
+
+    return 0;
+}
+
+
+/* if zero comes it means string is equal .
+if -1 comes it means second term is greater .
+if 1 comes it means 1st term is greater ..
+*/

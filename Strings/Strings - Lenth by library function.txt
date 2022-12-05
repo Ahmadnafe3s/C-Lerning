@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<string.h>
+int count_name(char name[]);
+
+int main(){
+
+    char name[20] = "Nafees Ahmad";
+
+   printf("%d" , strlen(name));
+   
+
+
+
+    return 0;
+}
+
+
+// help of this no need to write long codes... It cont all the words except null character '\0';
+
+
+o/p = Nafees  === 6

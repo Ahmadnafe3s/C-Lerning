@@ -1,0 +1,11 @@
+#include<stdio.h>
+
+int main (){
+char full_name[200];
+
+fgets(full_name , 200 , stdin);
+
+puts(full_name);
+
+    return 0;
+}

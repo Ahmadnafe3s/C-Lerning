@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<string.h>
+
+int main(){
+
+char oldname[] = "faizan";
+
+char newname[] = "nafees";
+
+strcpy(oldname , newname);
+
+puts(oldname); // here newname's string value copied in oldname string's....
+
+    return 0;
+}
+
+
+// it is use for copy the value of one string to another string..

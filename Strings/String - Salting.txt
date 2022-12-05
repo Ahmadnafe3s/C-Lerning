@@ -1,0 +1,21 @@
+#include<stdio.h>
+void salting(char password[]);
+
+int main(){
+    char password[200];
+    printf("Please enter your password");
+    scanf("%s" , password);
+    salting(password);
+
+    return 0;
+}
+
+void salting(char password[]){
+    char newpass[200];
+    char salt[] = "1234";
+    strcpy(newpass , password);
+    strcat(newpass , salt);
+    puts(newpass);
+}
+
+// it used for salting the password

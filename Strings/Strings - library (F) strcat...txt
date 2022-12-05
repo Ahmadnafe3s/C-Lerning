@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<string.h>
+
+int main(){
+
+char firstname[] = "Nafees";
+
+char lastname[] = "Ahmad";
+
+strcat(firstname , lastname);
+
+puts(firstname); // both data become saved here..
+
+    return 0;
+}
+
+//this function is use for additing two strings.. after adding whole string data will saves into 1st string..

@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<string.h>
+
+int main(){
+char name[10];
+char ch;
+int i;
+
+for ( i = 0; ch !='\n'; i++)
+{
+    scanf("%c" , &ch);
+    name[i] = ch;
+}
+
+
+name[i] = '\0';
+
+puts(name);
+
+
+    return 0;
+}
