@@ -1,0 +1,24 @@
+#include<stdio.h>
+struct details
+{
+    char name[20];
+    char father_name[20];
+    char course[20];
+    int roll_no;
+};
+
+int main(){
+
+struct details Person1 = {"Nafees khan" , "Anees Ahmad" , "BCA" , 1479};
+
+struct details *ptr = &Person1;
+
+printf("%s\n" , ptr->father_name);
+
+
+puts(ptr->name);
+
+
+
+return 0;
+}

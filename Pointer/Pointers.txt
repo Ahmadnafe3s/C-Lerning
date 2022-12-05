@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+int main () {
+
+int age = 22;
+
+int *ptr = &age;
+
+int A = *ptr;
+
+printf("%d\n" , age);
+printf("%d\n" , *ptr);
+printf("%d\n" , A);
+
+    return 0;
+}

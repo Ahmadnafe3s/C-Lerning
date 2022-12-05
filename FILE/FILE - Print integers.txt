@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+int main(){
+
+FILE *fptr;
+int n;
+fptr = fopen("text.txt" , "r");
+
+for (int i = 1; i <= 6; i++)
+{
+   fscanf(fptr , "%d" , &n);
+printf("Integers : %d\n" , n);
+
+}
+
+    return 0;
+}

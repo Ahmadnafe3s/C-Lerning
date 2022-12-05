@@ -1,0 +1,28 @@
+#include<stdio.h>
+#include<conio.h>
+struct details
+{
+    char firstname[20];
+     char lastname[20];
+     int rollno;
+     float height;
+};
+
+void main(){
+
+struct details P1 = {"Faizan" , "Khan" , 3456 , 5.6};
+
+printf("Name is : %s %s\n" , P1.firstname , P1.lastname);
+printf("roll no is : %d\n" , P1.rollno);
+printf("Height is : %f\n" , P1.height);
+
+struct details P2 = {"zeeshan" , "Khan" , 3400 , 4.6};
+
+printf("Name is : %s %s\n" , P2.firstname , P2.lastname);
+printf("roll no is : %d\n" , P2.rollno);
+printf("Height is : %f\n" , P2.height);
+
+
+
+getch();
+}

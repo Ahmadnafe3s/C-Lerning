@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+int main(){
+
+FILE *fptr;
+char ch;
+fptr = fopen("text.txt" , "r");
+
+printf("Charcter : %c\n" , fgetc(fptr));
+printf("Charcter : %c\n" , fgetc(fptr));
+printf("Charcter : %c\n" , fgetc(fptr));
+printf("Charcter : %c\n" , fgetc(fptr));
+printf("Charcter : %c\n" , fgetc(fptr));
+printf("Charcter : %c\n" , fgetc(fptr));
+
+    return 0;
+}

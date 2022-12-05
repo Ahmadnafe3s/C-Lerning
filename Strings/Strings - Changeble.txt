@@ -1,0 +1,12 @@
+#include<stdio.h>
+
+int main (){
+char *full_name = "Nafees Ahmad";
+
+puts(full_name);
+
+full_name = "Nafees";
+puts(full_name);
+
+    return 0;
+}

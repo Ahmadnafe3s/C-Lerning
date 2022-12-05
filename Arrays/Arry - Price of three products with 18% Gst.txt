@@ -1,0 +1,24 @@
+#include<stdio.h>
+
+int main (){
+    float price[4];
+printf("P1 = ");
+scanf("%f" , &price[0]);
+
+printf("P2 = ");
+scanf("%f" , &price[1]);
+
+printf("P3 = ");
+scanf("%f" , &price[2]);
+
+printf("Total P1 = %f\n" , price[0] + (0.18 * mprice[0]));
+printf("Total P2 = %f\n" , price[1] + (0.18 * price[1]));
+printf("Total P3 = %f\n" , price[2] + (0.18 * price[2]));
+
+price[3] = (price[0] + (0.18 * price[0])) + (price[1] + (0.18 * price[1])) + (price[2] + (0.18 * price[2]));
+    
+    printf("Grand total : %f\n" , price[3]);
+    
+    return 0;
+
+}

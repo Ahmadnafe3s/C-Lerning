@@ -1,0 +1,21 @@
+#include<stdio.h>
+
+int main(){
+
+FILE *fptr;
+char ch;
+fptr = fopen("text.txt" , "r");
+if (fptr == NULL)
+{
+    printf("File is not exist");
+}else
+{
+    for (int i = 1; i <= 6; i++)
+{
+    fscanf(fptr , "%c" , &ch);
+printf("Character : %c\n" , ch);
+}
+
+}
+    return 0;
+}

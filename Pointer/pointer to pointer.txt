@@ -1,0 +1,13 @@
+#include<stdio.h>
+
+int main () {
+int a = 1;
+int *ptr = &a;
+int **pptr = &ptr;
+
+printf("%d\n" , a);
+printf("%d\n" , *ptr);
+printf("%d\n" , **pptr);
+
+    return 0;
+}

@@ -1,0 +1,22 @@
+#include<stdio.h>
+struct details
+{
+    char name[20];
+    char father_name[20];
+    char course[20];
+    int roll_no;
+};
+
+int main(){
+
+struct details Person1 = {"Nafees khan" , "Anees Ahmad" , "BCA" , 1479};
+
+struct details *ptr = &Person1;
+
+printf("%d\n" , (*ptr).roll_no);
+
+printf("%d\n" , *ptr); // here adress of the pointer will print
+
+
+return 0;
+}

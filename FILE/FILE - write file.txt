@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+int main(){
+
+FILE *fptr;
+char ch;
+fptr = fopen("text.txt" , "w");
+
+for (char i = 'A'; i <= 'Z'; i++)
+{
+    fprintf(fptr , "%c" , i);
+}
+
+    return 0;
+}

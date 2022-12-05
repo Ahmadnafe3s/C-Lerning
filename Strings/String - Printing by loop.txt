@@ -1,0 +1,19 @@
+#include<stdio.h>
+void name(char ch[]);
+int main(){
+char ch[6] = {'N' , 'A' , 'F' , 'E' , 'E' , 'S' , '\0'};
+
+name(ch);
+
+
+return 0;
+}
+
+void name(char ch[]){
+for (int i = 0; ch[i] != '\0'; i++)
+{
+    printf("%c" , ch[i]);
+}
+
+
+}

@@ -1,0 +1,63 @@
+#include<stdio.h>
+typedef struct details
+{
+    char name[20];
+    char father_name[20];
+    char course[20];
+    int roll_no;
+}dt;
+
+void printdetails(dt persons);
+
+int main(){
+
+dt Persons[5];
+
+printf("Enter details of P1 = ");
+scanf("%s" , Persons[0].name);
+scanf("%s" , Persons[0].father_name);
+scanf("%s" , Persons[0].course);
+scanf("%d" , &Persons[0].roll_no);
+
+printf("Enter details of P2 = ");
+scanf("%s" , Persons[1].name);
+scanf("%s" , Persons[1].father_name);
+scanf("%s" , Persons[1].course);
+scanf("%d" , &Persons[1].roll_no);
+
+printf("Enter details of P3 = ");
+scanf("%s" , Persons[2].name);
+scanf("%s" , Persons[2].father_name);
+scanf("%s" , Persons[2].course);
+scanf("%d" , &Persons[2].roll_no);
+
+
+printf("Enter details of P4 = ");
+scanf("%s" , Persons[3].name);
+scanf("%s" , Persons[3].father_name);
+scanf("%s" , Persons[3].course);
+scanf("%d" , &Persons[3].roll_no);
+
+
+printf("Enter details of P5 = ");
+scanf("%s" , Persons[4].name);
+scanf("%s" , Persons[4].father_name);
+scanf("%s" , Persons[4].course);
+scanf("%d" , &Persons[4].roll_no);
+
+printdetails(Persons[0]);
+printdetails(Persons[1]);
+printdetails(Persons[2]);
+printdetails(Persons[3]);
+printdetails(Persons[4]);
+
+return 0;
+
+
+}
+
+void printdetails(dt persons){
+
+printf("Dtails = %s %s %s %d\n" , persons.name , persons.father_name , persons.course , persons.roll_no);
+
+}

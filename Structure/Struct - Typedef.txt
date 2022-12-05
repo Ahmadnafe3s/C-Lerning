@@ -1,0 +1,21 @@
+#include<stdio.h>
+typedef struct details
+{
+    char name[20];
+    char father_name[20];
+    char course[20];
+    int roll_no;
+}dt;
+
+int main(){
+
+dt P1 = {"Nafees khan" , "Anees Ahmad" , "BCA" , 1479};
+
+puts(P1.name);
+
+
+
+return 0;
+}
+
+// It is used for making nick named of an structure...

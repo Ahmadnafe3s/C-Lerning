@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+int main(){
+
+FILE *fptr;
+char ch;
+fptr = fopen("text.txt" , "a");
+
+for (char i = 'A'; i <= 'Z'; i++)
+{
+    fprintf(fptr , "%c" , i);
+}
+fclose(fptr);
+    return 0;
+}
+
+// here we can write anything as per the format specifier...

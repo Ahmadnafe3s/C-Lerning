@@ -1,0 +1,12 @@
+#include<stdio.h>
+
+int main(){
+
+FILE *fptr;
+char ch;
+fptr = fopen("text.txt" , "w");
+
+fputc('N' , fptr);
+
+    return 0;
+}
