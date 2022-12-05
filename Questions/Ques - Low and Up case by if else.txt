@@ -1,0 +1,23 @@
+#include<stdio.h>
+
+int main(){
+
+char x;
+printf("Please Enter Case");
+scanf("%c" , &x);
+
+if (x >= 'a' && x <= 'z')
+{
+    printf("lown case\n");
+}
+else if (x >= 'A' && x <= 'Z')
+{
+    printf("Upper case\n");
+}
+
+else {
+    printf("Not a valid case\n");
+}
+
+    return 0;
+}

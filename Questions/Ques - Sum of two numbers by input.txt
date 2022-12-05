@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+int main(){
+    // Here we will take take two variables a and b.
+float a , b;
+printf("Enter your product value : ");
+scanf("%f" , &a);
+
+printf("Enter your product value : ");
+scanf("%f" , &b);
+
+float sum = a + b;
+printf("Fainal Price is : %f \n" , sum);
+    return 0;
+}

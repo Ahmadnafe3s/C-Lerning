@@ -1,0 +1,59 @@
+#include<stdio.h>
+
+int main () {
+    char details;
+    int marks;
+    printf("What you want to know\n");
+    printf("Everything should be in lower case\n");
+    scanf("%c" , &details);
+//Here is the peronal info........
+    switch (details)
+    {
+    case 'd':
+        printf("Name : Nafees\n");
+        printf("Father : Anees Ahmad\n");
+        printf("Mother : Freeeda Khatoon\n");
+        printf("Age  : 22\n");
+        printf("Class : BCA 1st\n");
+        printf("cast  : genral\n");
+        printf("Religion : Islam\n");
+        printf("Nationality : Indian\n");
+        printf("Address is : new market purwa tulsipur\n");
+         break;
+    
+         default:
+        printf("invalid query\n");
+    }
+// Here we will input the marks........
+printf("Please enter your marks\n");
+scanf("%d" , &marks);
+
+if (marks >= 80 && marks <= 100)
+{
+    printf("A++\n");
+     printf("you are pass\n");
+      printf("Very Good\n");
+}
+else if (marks >= 60 && marks < 80)
+{
+    printf("A+\n");
+     printf("you are pass\n");
+      printf("Good\n");
+}
+else if (marks >= 40 && marks < 60)
+{
+    printf("A++\n");
+     printf("you are pass\n");
+     printf("Second Division\n");
+      printf("Good\n");
+}
+
+else {
+    printf("You are fail");
+    printf("Better luck next time try\n");
+}
+
+
+
+    return 0;
+}

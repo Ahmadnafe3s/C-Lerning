@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+int main () {
+
+int a = 5 , b = 3 , t;
+
+t = a;
+a = b;
+b = t;
+
+printf("A = %d\n" , a);
+printf("B = %d\n" , b);
+
+    return 0;
+}

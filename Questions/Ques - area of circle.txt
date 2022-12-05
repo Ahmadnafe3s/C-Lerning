@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<math.h>
+float areacircle(float rad);
+int main() {
+float rad =  4.0;
+
+printf("%f" , areacircle(rad));
+
+    return 0;
+}
+float areacircle(float rad){
+    return 3.14 * rad * rad;
+}
