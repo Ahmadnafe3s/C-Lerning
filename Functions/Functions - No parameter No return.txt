@@ -1,0 +1,27 @@
+#include<stdio.h>
+
+void printindian();
+void printbonjor();
+int main() {
+char g;
+printf("Please enter your country name i or f");
+scanf("%c" , &g);
+
+if (g == 'i')
+{
+    printindian();
+}
+else if (g == 'f')
+{
+    printbonjor();
+}
+    return 0;
+}
+void printindian(){
+printf("Assalam Alekum!\n");
+}
+
+void printbonjor(){
+printf("Bonjor!\n");
+
+}
