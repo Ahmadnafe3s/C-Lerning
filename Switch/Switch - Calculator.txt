@@ -1,0 +1,42 @@
+#include<stdio.h>
+
+int main() {
+char operator;
+float num1 , num2;
+
+printf("\n Enter operator : ");
+scanf("%c" , &operator);
+
+printf("\n Enter Num1 : ");
+scanf("%f" , &num1);
+
+printf("\n Enter Num2 : ");
+scanf("%f" , &num2);
+/*
+The specific operator will swtich on particular switch and whole instruction will execute 
+*/
+switch (operator) // Here operator is a variable....
+{
+case '+':
+printf("sum : %f \n" , num1 + num2);
+break;
+
+    case '-':
+    printf("Substract : %f \n" , num1 - num2);
+    break;
+
+  case '*':
+  printf("multiply : %f \n" , num1 * num2);
+   break;
+
+case '/':
+printf("Division : %f \n" , num1 / num2);
+break;
+    
+
+default:
+printf("invalid input");
+    break;
+}
+    return 0;
+}
